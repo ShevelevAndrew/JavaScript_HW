@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <button onclick="round (0)">Камень</button>
+    <button onclick="round (1)">Ножницы</button>
+    <button onclick="round (2)">Бумага</button> -->
+
+
+    <script>
+        //1. С помощью цикла while вывести все простые числа в промежутке от 0 до 100
+
+        // let num1 = 0
+        // let num2 = 100
+        // let flag
+        // let arr = []
+        // while (num1 <= num2) {
+        //     if (num1 < 2) {
+        //         num1++
+        //         continue
+        //     }
+        //     let i = 2
+        //     flag = true
+        //     while (i < num1) {
+        //         if (num1 % i === 0) {
+        //             flag = false
+        //             break
+        //         }
+        //         i++
+        //     }
+        //     if (flag) {
+        //         arr.push(num1)
+        //     }
+        //     num1++
+        // }
+        // console.log(arr)
+
+
+        // 4.*Вывести с помощью цикла for числа от 0 до 9, не используя тело цикла. Выглядеть это должно так:
+        // for(…){// здесь пусто}
+
+        // for (let num = 0; num <= 9; console.log(num++ + ' ')) {}
+
+        // 4) *Нарисовать пирамиду с помощью console.log, как показано на рисунке, 
+        // только у вашей пирамиды должно быть 20 рядов, а не 5:
+        // x
+        // xx
+        // xxx
+        // xxxx
+        // xxxxx
+
+        // let pyramid = ''
+        // for (let i = 1; i <= 20; i++) {
+        //     pyramid = pyramid + 'x'
+        //     console.log(pyramid + '\n')
+        // }
+
+        // 5) ** Реализовать игру "Камень, ножницы...." через цикл while 
+        // И через рекурсию 
+        // с возможностью прекращения игры
+
+        // function round(user) {
+        //     // console.log('User clicked ' + user)
+        //     let comp = getPC()
+        //     if ((user === 0 && comp === 1) || (user === 1 && comp === 2) || (user === 2 && comp === 0)) {
+        //         alert('User is very well! ' + translate(user) + '; ' + translate(comp))
+        //     } else if (comp === user) {
+        //         alert('Not a computer, not a user')
+        //     } else {
+        //         alert('User lost' + translate(user) + '; ' + translate(comp))
+        //     }
+
+        // }
+
+        // function getPC() {
+        //     return Math.floor(Math.random() * 3) //[0-2]
+        // }
+
+        // function translate(ch) {
+        //     return ch === 0 ? 'Камень' : (ch === 1 ? 'Ножницы' : 'Бумага')
+        // }
+
+        // function runRound() {
+        //     let choice = 0
+        //     while (choice !== 4) {
+        //         choice = +prompt('1-Камень; 2- Ножницы; 3-Бумага; 4-Выход')
+        //         while (choice == 1 || choice == 2 || choice == 3) {
+        //             round(choice)
+        //             break
+        //         }
+        //     }
+
+        // }
+        // runRound()
+
+        // function recursRound() {
+        //     choice = +prompt('1-Камень; 2- Ножницы; 3-Бумага; 4-Выход')
+        //     if (choice !== 4) {
+        //         round(choice)
+        //         recursRound()
+        //     }
+        // }
+        // recursRound()
+    </script>
+</body>
+
+</html>
